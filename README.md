@@ -1,7 +1,37 @@
-# Manipulación de datos (Data Wrangling)
-Christian Solis, Project 4, Data Scientist Bootcamp (Tripleten)
-Instacart es una plataforma de entregas de comestibles donde la clientela puede registrar un pedido y hacer que se lo entreguen, similar a Uber Eats y Door Dash. Este conjunto de datos particular fue lanzado públicamente (materiales en inglés) por Instacart en 2017 para una competición Kaggle (materiales en inglés). Los datos reales pueden descargarse directamente de la página de la competición Kaggle.
+# Instacart-Customer-Analysis-Data Wrangling/Manipulacion de Datos
+This project involves an exploratory data analysis (EDA) of Instacart's customer purchase data. The goal is to uncover insights about customer behavior, including purchase patterns, product popularity, and reorder trends, to provide actionable business recommendations.
 
-El conjunto de datos que te hemos proporcionado tiene modificaciones del original. Redujimos el tamaño del conjunto para que tus cálculos se hicieran más rápido e introdujimos valores ausentes y duplicados. Tuvimos cuidado de conservar las distribuciones de los datos originales cuando hicimos los cambios.
+# Datasets
+The analysis is based on the following datasets:
 
-Tu misión es limpiar los datos y preparar un informe que brinde información sobre los hábitos de compra de los clientes de Instacart.
+instacart_orders.csv: Contains information about orders, including order time and customer IDs.
+products.csv: Provides details about the products available on Instacart.
+order_products.csv: Links orders to the products purchased in each order.
+aisles.csv: Describes the grocery aisle categories.
+departments.csv: Describes the grocery department categories.
+# Objectives
+Assess and preprocess the data (handle missing values, duplicates, etc.).
+Analyze customer purchase patterns by:
+Day of the week.
+Hour of the day.
+Frequency of reorders.
+Identify the most popular products and the ones frequently reordered.
+Provide actionable recommendations to improve inventory management, marketing, and customer experience.
+# Technologies Used
+Python: Pandas, NumPy, Matplotlib, Seaborn for data analysis and visualization.
+Jupyter Notebook: Interactive analysis environment.
+# Key Steps
+Data Preprocessing:
+Handled missing values and duplicates.
+Verified data consistency and adjusted types.
+Analysis:
+Visualized purchase behavior by day and hour.
+Identified top products by purchase frequency and reorder rates.
+Analyzed customer habits, such as the time between orders and the first items added to the cart.
+Insights:
+Reordering patterns revealed opportunities for targeted marketing.
+Popular products provide inventory optimization recommendations.
+# Results
+Purchase Behavior: Customers are most active on Saturdays and during late mornings.
+Top Products: Frequently reordered items include fresh produce and beverages.
+Customer Behavior: Reorder rates suggest strong brand loyalty for certain products.
